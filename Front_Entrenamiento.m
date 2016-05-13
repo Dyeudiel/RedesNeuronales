@@ -22,7 +22,7 @@ function varargout = Front_Entrenamiento(varargin)
 
 % Edit the above text to modify the response to help Front_Entrenamiento
 
-% Last Modified by GUIDE v2.5 12-May-2016 20:54:27
+% Last Modified by GUIDE v2.5 12-May-2016 21:31:25
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -100,49 +100,49 @@ function checkbox2_Callback(hObject, eventdata, handles)
 % Hint: get(hObject,'Value') returns toggle state of checkbox2
 
 
-% --- Executes on button press in checkbox10.
-function checkbox10_Callback(hObject, eventdata, handles)
-% hObject    handle to checkbox10 (see GCBO)
+% --- Executes on button press in E5.
+function E5_Callback(hObject, eventdata, handles)
+% hObject    handle to E5 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of checkbox10
+% Hint: get(hObject,'Value') returns toggle state of E5
 
 
-% --- Executes on button press in checkbox11.
-function checkbox11_Callback(hObject, eventdata, handles)
-% hObject    handle to checkbox11 (see GCBO)
+% --- Executes on button press in E2.
+function E2_Callback(hObject, eventdata, handles)
+% hObject    handle to E2 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of checkbox11
+% Hint: get(hObject,'Value') returns toggle state of E2
 
 
-% --- Executes on button press in checkbox12.
-function checkbox12_Callback(hObject, eventdata, handles)
-% hObject    handle to checkbox12 (see GCBO)
+% --- Executes on button press in E3.
+function E3_Callback(hObject, eventdata, handles)
+% hObject    handle to E3 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of checkbox12
+% Hint: get(hObject,'Value') returns toggle state of E3
 
 
-% --- Executes on button press in checkbox13.
-function checkbox13_Callback(hObject, eventdata, handles)
-% hObject    handle to checkbox13 (see GCBO)
+% --- Executes on button press in E4.
+function E4_Callback(hObject, eventdata, handles)
+% hObject    handle to E4 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of checkbox13
+% Hint: get(hObject,'Value') returns toggle state of E4
 
 
-% --- Executes on button press in checkbox14.
-function checkbox14_Callback(hObject, eventdata, handles)
-% hObject    handle to checkbox14 (see GCBO)
+% --- Executes on button press in E1.
+function E1_Callback(hObject, eventdata, handles)
+% hObject    handle to E1 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of checkbox14
+% Hint: get(hObject,'Value') returns toggle state of E1
 
 
 % --- Executes on button press in checkbox15.
@@ -208,49 +208,49 @@ function checkbox33_Callback(hObject, eventdata, handles)
 % Hint: get(hObject,'Value') returns toggle state of checkbox33
 
 
-% --- Executes on button press in checkbox34.
-function checkbox34_Callback(hObject, eventdata, handles)
-% hObject    handle to checkbox34 (see GCBO)
+% --- Executes on button press in E10.
+function E10_Callback(hObject, eventdata, handles)
+% hObject    handle to E10 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of checkbox34
+% Hint: get(hObject,'Value') returns toggle state of E10
 
 
-% --- Executes on button press in checkbox35.
-function checkbox35_Callback(hObject, eventdata, handles)
-% hObject    handle to checkbox35 (see GCBO)
+% --- Executes on button press in E7.
+function E7_Callback(hObject, eventdata, handles)
+% hObject    handle to E7 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of checkbox35
+% Hint: get(hObject,'Value') returns toggle state of E7
 
 
-% --- Executes on button press in checkbox36.
-function checkbox36_Callback(hObject, eventdata, handles)
-% hObject    handle to checkbox36 (see GCBO)
+% --- Executes on button press in E8.
+function E8_Callback(hObject, eventdata, handles)
+% hObject    handle to E8 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of checkbox36
+% Hint: get(hObject,'Value') returns toggle state of E8
 
 
-% --- Executes on button press in checkbox37.
-function checkbox37_Callback(hObject, eventdata, handles)
-% hObject    handle to checkbox37 (see GCBO)
+% --- Executes on button press in E9.
+function E9_Callback(hObject, eventdata, handles)
+% hObject    handle to E9 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of checkbox37
+% Hint: get(hObject,'Value') returns toggle state of E9
 
 
-% --- Executes on button press in checkbox38.
-function checkbox38_Callback(hObject, eventdata, handles)
-% hObject    handle to checkbox38 (see GCBO)
+% --- Executes on button press in E6.
+function E6_Callback(hObject, eventdata, handles)
+% hObject    handle to E6 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of checkbox38
+% Hint: get(hObject,'Value') returns toggle state of E6
 
 
 % --- Executes on button press in checkbox39.
@@ -262,49 +262,49 @@ function checkbox39_Callback(hObject, eventdata, handles)
 % Hint: get(hObject,'Value') returns toggle state of checkbox39
 
 
-% --- Executes on button press in checkbox40.
-function checkbox40_Callback(hObject, eventdata, handles)
-% hObject    handle to checkbox40 (see GCBO)
+% --- Executes on button press in E15.
+function E15_Callback(hObject, eventdata, handles)
+% hObject    handle to E15 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of checkbox40
+% Hint: get(hObject,'Value') returns toggle state of E15
 
 
-% --- Executes on button press in checkbox41.
-function checkbox41_Callback(hObject, eventdata, handles)
-% hObject    handle to checkbox41 (see GCBO)
+% --- Executes on button press in E12.
+function E12_Callback(hObject, eventdata, handles)
+% hObject    handle to E12 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of checkbox41
+% Hint: get(hObject,'Value') returns toggle state of E12
 
 
-% --- Executes on button press in checkbox42.
-function checkbox42_Callback(hObject, eventdata, handles)
-% hObject    handle to checkbox42 (see GCBO)
+% --- Executes on button press in E13.
+function E13_Callback(hObject, eventdata, handles)
+% hObject    handle to E13 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of checkbox42
+% Hint: get(hObject,'Value') returns toggle state of E13
 
 
-% --- Executes on button press in checkbox43.
-function checkbox43_Callback(hObject, eventdata, handles)
-% hObject    handle to checkbox43 (see GCBO)
+% --- Executes on button press in E14.
+function E14_Callback(hObject, eventdata, handles)
+% hObject    handle to E14 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of checkbox43
+% Hint: get(hObject,'Value') returns toggle state of E14
 
 
-% --- Executes on button press in checkbox44.
-function checkbox44_Callback(hObject, eventdata, handles)
-% hObject    handle to checkbox44 (see GCBO)
+% --- Executes on button press in E11.
+function E11_Callback(hObject, eventdata, handles)
+% hObject    handle to E11 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of checkbox44
+% Hint: get(hObject,'Value') returns toggle state of E11
 
 
 % --- Executes on button press in checkbox45.
@@ -316,49 +316,49 @@ function checkbox45_Callback(hObject, eventdata, handles)
 % Hint: get(hObject,'Value') returns toggle state of checkbox45
 
 
-% --- Executes on button press in checkbox46.
-function checkbox46_Callback(hObject, eventdata, handles)
-% hObject    handle to checkbox46 (see GCBO)
+% --- Executes on button press in E20.
+function E20_Callback(hObject, eventdata, handles)
+% hObject    handle to E20 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of checkbox46
+% Hint: get(hObject,'Value') returns toggle state of E20
 
 
-% --- Executes on button press in checkbox47.
-function checkbox47_Callback(hObject, eventdata, handles)
-% hObject    handle to checkbox47 (see GCBO)
+% --- Executes on button press in E17.
+function E17_Callback(hObject, eventdata, handles)
+% hObject    handle to E17 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of checkbox47
+% Hint: get(hObject,'Value') returns toggle state of E17
 
 
-% --- Executes on button press in checkbox48.
-function checkbox48_Callback(hObject, eventdata, handles)
-% hObject    handle to checkbox48 (see GCBO)
+% --- Executes on button press in E18.
+function E18_Callback(hObject, eventdata, handles)
+% hObject    handle to E18 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of checkbox48
+% Hint: get(hObject,'Value') returns toggle state of E18
 
 
-% --- Executes on button press in checkbox49.
-function checkbox49_Callback(hObject, eventdata, handles)
-% hObject    handle to checkbox49 (see GCBO)
+% --- Executes on button press in E19.
+function E19_Callback(hObject, eventdata, handles)
+% hObject    handle to E19 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of checkbox49
+% Hint: get(hObject,'Value') returns toggle state of E19
 
 
-% --- Executes on button press in checkbox50.
-function checkbox50_Callback(hObject, eventdata, handles)
-% hObject    handle to checkbox50 (see GCBO)
+% --- Executes on button press in E16.
+function E16_Callback(hObject, eventdata, handles)
+% hObject    handle to E16 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of checkbox50
+% Hint: get(hObject,'Value') returns toggle state of E16
 
 
 % --- Executes on button press in checkbox51.
@@ -370,49 +370,49 @@ function checkbox51_Callback(hObject, eventdata, handles)
 % Hint: get(hObject,'Value') returns toggle state of checkbox51
 
 
-% --- Executes on button press in checkbox52.
-function checkbox52_Callback(hObject, eventdata, handles)
-% hObject    handle to checkbox52 (see GCBO)
+% --- Executes on button press in E25.
+function E25_Callback(hObject, eventdata, handles)
+% hObject    handle to E25 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of checkbox52
+% Hint: get(hObject,'Value') returns toggle state of E25
 
 
-% --- Executes on button press in checkbox53.
-function checkbox53_Callback(hObject, eventdata, handles)
-% hObject    handle to checkbox53 (see GCBO)
+% --- Executes on button press in E22.
+function E22_Callback(hObject, eventdata, handles)
+% hObject    handle to E22 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of checkbox53
+% Hint: get(hObject,'Value') returns toggle state of E22
 
 
-% --- Executes on button press in checkbox54.
-function checkbox54_Callback(hObject, eventdata, handles)
-% hObject    handle to checkbox54 (see GCBO)
+% --- Executes on button press in E23.
+function E23_Callback(hObject, eventdata, handles)
+% hObject    handle to E23 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of checkbox54
+% Hint: get(hObject,'Value') returns toggle state of E23
 
 
-% --- Executes on button press in checkbox55.
-function checkbox55_Callback(hObject, eventdata, handles)
-% hObject    handle to checkbox55 (see GCBO)
+% --- Executes on button press in E24.
+function E24_Callback(hObject, eventdata, handles)
+% hObject    handle to E24 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of checkbox55
+% Hint: get(hObject,'Value') returns toggle state of E24
 
 
-% --- Executes on button press in checkbox56.
-function checkbox56_Callback(hObject, eventdata, handles)
-% hObject    handle to checkbox56 (see GCBO)
+% --- Executes on button press in E21.
+function E21_Callback(hObject, eventdata, handles)
+% hObject    handle to E21 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hint: get(hObject,'Value') returns toggle state of checkbox56
+% Hint: get(hObject,'Value') returns toggle state of E21
 
 
 
@@ -449,5 +449,305 @@ function pushbutton1_Callback(hObject, eventdata, handles)
 % --- Otherwise, executes on mouse press in 5 pixel border or over pushbutton1.
 function pushbutton1_ButtonDownFcn(hObject, eventdata, handles)
 % hObject    handle to pushbutton1 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+
+% --- Executes on button press in checkbox57.
+function checkbox57_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox57 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox57
+
+
+% --- Executes on button press in checkbox58.
+function checkbox58_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox58 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox58
+
+
+% --- Executes on button press in checkbox59.
+function checkbox59_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox59 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox59
+
+
+% --- Executes on button press in checkbox60.
+function checkbox60_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox60 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox60
+
+
+% --- Executes on button press in checkbox61.
+function checkbox61_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox61 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox61
+
+
+% --- Executes on button press in checkbox62.
+function checkbox62_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox62 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox62
+
+
+% --- Executes on button press in checkbox63.
+function checkbox63_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox63 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox63
+
+
+% --- Executes on button press in checkbox64.
+function checkbox64_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox64 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox64
+
+
+% --- Executes on button press in checkbox65.
+function checkbox65_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox65 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox65
+
+
+% --- Executes on button press in checkbox66.
+function checkbox66_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox66 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox66
+
+
+% --- Executes on button press in checkbox67.
+function checkbox67_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox67 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox67
+
+
+% --- Executes on button press in checkbox68.
+function checkbox68_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox68 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox68
+
+
+% --- Executes on button press in checkbox69.
+function checkbox69_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox69 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox69
+
+
+% --- Executes on button press in checkbox70.
+function checkbox70_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox70 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox70
+
+
+% --- Executes on button press in checkbox71.
+function checkbox71_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox71 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox71
+
+
+% --- Executes on button press in checkbox72.
+function checkbox72_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox72 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox72
+
+
+% --- Executes on button press in checkbox73.
+function checkbox73_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox73 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox73
+
+
+% --- Executes on button press in checkbox74.
+function checkbox74_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox74 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox74
+
+
+% --- Executes on button press in checkbox75.
+function checkbox75_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox75 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox75
+
+
+% --- Executes on button press in checkbox76.
+function checkbox76_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox76 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox76
+
+
+% --- Executes on button press in checkbox77.
+function checkbox77_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox77 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox77
+
+
+% --- Executes on button press in checkbox78.
+function checkbox78_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox78 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox78
+
+
+% --- Executes on button press in checkbox79.
+function checkbox79_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox79 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox79
+
+
+% --- Executes on button press in checkbox80.
+function checkbox80_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox80 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox80
+
+
+% --- Executes on button press in checkbox81.
+function checkbox81_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox81 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox81
+
+
+% --- Executes on button press in checkbox82.
+function checkbox82_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox82 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox82
+
+
+% --- Executes on button press in checkbox83.
+function checkbox83_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox83 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox83
+
+
+% --- Executes on button press in checkbox84.
+function checkbox84_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox84 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox84
+
+
+% --- Executes on button press in checkbox85.
+function checkbox85_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox85 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox85
+
+
+% --- Executes on button press in checkbox86.
+function checkbox86_Callback(hObject, eventdata, handles)
+% hObject    handle to checkbox86 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hint: get(hObject,'Value') returns toggle state of checkbox86
+
+
+
+function edit2_Callback(hObject, eventdata, handles)
+% hObject    handle to edit2 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+% Hints: get(hObject,'String') returns contents of edit2 as text
+%        str2double(get(hObject,'String')) returns contents of edit2 as a double
+
+
+% --- Executes during object creation, after setting all properties.
+function edit2_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to edit2 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    empty - handles not created until after all CreateFcns called
+
+% Hint: edit controls usually have a white background on Windows.
+%       See ISPC and COMPUTER.
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+
+% --- Executes on button press in pushbutton2.
+function pushbutton2_Callback(hObject, eventdata, handles)
+% hObject    handle to pushbutton2 (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
