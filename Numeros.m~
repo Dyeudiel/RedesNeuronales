@@ -4,12 +4,12 @@ d=[0 0 0 0 0 0 0 0 0 1;0 0 0 0 0 0 0 0 1 0;0 0 0 0 0 0 0 1 0 0;0 0 0 0 0 0 1 0 0
 red=newp([0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1],10);
 red=train(red,x,d);% Entrenamiento de la red
 %validacion de la red (patron de prueba el # 9)
-v=[1	0	0	1	0	1	0	1	0	0	1	1	0	0	0	1	0	1	0	0	1	0	0	1	0];% Vector de prueba tipo fila = al seis
+v=[1	1	1  	1	0	0	1	1	1	1	0	1	1	1	1];% Vector de prueba tipo fila = al seis
 prueba=v';% Vector de prueba convertido a tipo Columna
 a=sim(red,prueba);% Valor que toma la salida deseada
 b=a';
 
-
+b;
 
 % if     a== [0;0;0;0;0;0;0;0;0;0]%numero 0
 %     salida=0                    
