@@ -1,15 +1,51 @@
-x=[1 0 1 1 1 1 1 1 1 1;1 0 1 1 0 1 1 1 1 1;1 1 1 1 1 1 1 1 1 1;1 0 0 0 1 1 1 0 1 1;0 0 0 0 0 0 0 0 0 0;1 1 1 1 1 0 0 1 1 1;1 0 1 1 1 1 1 0 1 1;0 0 1 1 1 1 1 1 1 1;1 1 1 1 1 1 1 1 1 1;1 0 1 0 0 0 1 0 1 0;0 0 0 0 0 0 0 0 0 0;1 1 0 1 1 1 1 1 1 1;1 0 1 1 0 1 1 0 1 0;1 0 1 1 0 1 1 0 1 0;1 1 1 1 1 1 1 1 1 1];
+clear all;
+x = load('entradas.txt')'
+dat = load('datos.txt')
+tdat = dat'
 
-d=[0 0 0 0 0 0 0 0 0 1;0 0 0 0 0 0 0 0 1 0;0 0 0 0 0 0 0 1 0 0;0 0 0 0 0 0 1 0 0 0;0 0 0 0 0 1 0 0 0 0;0 0 0 0 1 0 0 0 0 0;0 0 0 1 0 0 0 0 0 0;0 0 1 0 0 0 0 0 0 0;0 1 0 0 0 0 0 0 0 0;0 0 0 0 0 0 0 0 0 0];
-red=newp([0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1],10);
+cond = dat(1:size(dat)) %condiciones ascii (primer columna)
+d = dat(1:size(dat),2:size(tdat))' %columna 2 a n luego transpuesta
+
+
+
+red=newp([0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1],25);
 red=train(red,x,d);% Entrenamiento de la red
-%validacion de la red (patron de prueba el # 9)
-v=[1	1	1  	1	0	0	1	1	1	1	0	1	1	1	1];% Vector de prueba tipo fila = al seis
-prueba=v';% Vector de prueba convertido a tipo Columna
-a=sim(red,prueba);% Valor que toma la salida deseada
-b=a';
 
-b;
+v = [0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	1	0	1	1]
+tv = v'
+a = sim(red,tv)
+
+test = [];
+for i=1 : size(cond')
+   buscado = dat(i:i,2:size(tdat));
+   
+   if a==buscado
+       msgbox(char(cond(i)));
+       break;
+   end
+end
+
+%for i = 1:size(cond)
+%    if a == 
+%end
+
+%cond = dat'(1:size(dat'))
+%d = dat(2:size(dat));
+
+
+
+% x=[1 0 1 1 1 1 1 1 1 1;1 0 1 1 0 1 1 1 1 1;1 1 1 1 1 1 1 1 1 1;1 0 0 0 1 1 1 0 1 1;0 0 0 0 0 0 0 0 0 0;1 1 1 1 1 0 0 1 1 1;1 0 1 1 1 1 1 0 1 1;0 0 1 1 1 1 1 1 1 1;1 1 1 1 1 1 1 1 1 1;1 0 1 0 0 0 1 0 1 0;0 0 0 0 0 0 0 0 0 0;1 1 0 1 1 1 1 1 1 1;1 0 1 1 0 1 1 0 1 0;1 0 1 1 0 1 1 0 1 0;1 1 1 1 1 1 1 1 1 1];
+% 
+% d=[0 0 0 0 0 0 0 0 0 1;0 0 0 0 0 0 0 0 1 0;0 0 0 0 0 0 0 1 0 0;0 0 0 0 0 0 1 0 0 0;0 0 0 0 0 1 0 0 0 0;0 0 0 0 1 0 0 0 0 0;0 0 0 1 0 0 0 0 0 0;0 0 1 0 0 0 0 0 0 0;0 1 0 0 0 0 0 0 0 0;0 0 0 0 0 0 0 0 0 0];
+% red=newp([0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1],10);
+% red=train(red,x,d);% Entrenamiento de la red
+% %validacion de la red (patron de prueba el # 9)
+% v=[1	0	0	1	0	1	0	1	0	0	1	1	0	0	0	1	0	1	0	0	1	0	0	1	0];% Vector de prueba tipo fila = al seis
+% prueba=v';% Vector de prueba convertido a tipo Columna
+% a=sim(red,prueba);% Valor que toma la salida deseada
+% b=a';
+
+
 
 % if     a== [0;0;0;0;0;0;0;0;0;0]%numero 0
 %     salida=0                    
