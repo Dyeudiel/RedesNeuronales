@@ -9,7 +9,6 @@ d = dat(1:size(dat),2:size(tdat))' %columna 2 a n luego transpuesta
 red=newp([0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1],25);
 red=train(red,x,d);% Entrenamiento de la red
 
-
 v = [1	0	0	1	0	1	0	1	0	0	1	1	0	0	0	1	0	1	0	0	1	0	0	1	0]
 tv = v'
 a = sim(red,tv)
