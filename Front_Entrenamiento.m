@@ -22,7 +22,7 @@ function varargout = Front_Entrenamiento(varargin)
 
 % Edit the above text to modify the response to help Front_Entrenamiento
 
-% Last Modified by GUIDE v2.5 14-May-2016 11:48:12
+% Last Modified by GUIDE v2.5 14-May-2016 12:17:31
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -416,18 +416,18 @@ function E21_Callback(hObject, eventdata, handles)
 
 
 
-function edit1_Callback(hObject, eventdata, handles)
-% hObject    handle to edit1 (see GCBO)
+function txtEntrenar_Callback(hObject, eventdata, handles)
+% hObject    handle to txtEntrenar (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: get(hObject,'String') returns contents of edit1 as text
-%        str2double(get(hObject,'String')) returns contents of edit1 as a double
+% Hints: get(hObject,'String') returns contents of txtEntrenar as text
+%        str2double(get(hObject,'String')) returns contents of txtEntrenar as a double
 
 
 % --- Executes during object creation, after setting all properties.
-function edit1_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to edit1 (see GCBO)
+function txtEntrenar_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to txtEntrenar (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
@@ -438,17 +438,17 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
 end
 
 
-% --- Executes on button press in pushbutton1.
-function pushbutton1_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton1 (see GCBO)
+% --- Executes on button press in btnEntrenar.
+function btnEntrenar_Callback(hObject, eventdata, handles)
+% hObject    handle to btnEntrenar (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
 
 % --- If Enable == 'on', executes on mouse press in 5 pixel border.
-% --- Otherwise, executes on mouse press in 5 pixel border or over pushbutton1.
-function pushbutton1_ButtonDownFcn(hObject, eventdata, handles)
-% hObject    handle to pushbutton1 (see GCBO)
+% --- Otherwise, executes on mouse press in 5 pixel border or over btnEntrenar.
+function btnEntrenar_ButtonDownFcn(hObject, eventdata, handles)
+% hObject    handle to btnEntrenar (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
@@ -724,18 +724,18 @@ function checkbox86_Callback(hObject, eventdata, handles)
 
 
 
-function edit2_Callback(hObject, eventdata, handles)
-% hObject    handle to edit2 (see GCBO)
+function txtResultado_Callback(hObject, eventdata, handles)
+% hObject    handle to txtResultado (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
-% Hints: get(hObject,'String') returns contents of edit2 as text
-%        str2double(get(hObject,'String')) returns contents of edit2 as a double
+% Hints: get(hObject,'String') returns contents of txtResultado as text
+%        str2double(get(hObject,'String')) returns contents of txtResultado as a double
 
 
 % --- Executes during object creation, after setting all properties.
-function edit2_CreateFcn(hObject, eventdata, handles)
-% hObject    handle to edit2 (see GCBO)
+function txtResultado_CreateFcn(hObject, eventdata, handles)
+% hObject    handle to txtResultado (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    empty - handles not created until after all CreateFcns called
 
@@ -746,9 +746,9 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
 end
 
 
-% --- Executes on button press in pushbutton2.
-function pushbutton2_Callback(hObject, eventdata, handles)
-% hObject    handle to pushbutton2 (see GCBO)
+% --- Executes on button press in btnAnalizar.
+function btnAnalizar_Callback(hObject, eventdata, handles)
+% hObject    handle to btnAnalizar (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
 
@@ -1156,3 +1156,10 @@ function A25_Callback(hObject, eventdata, handles)
 % handles    structure with handles and user data (see GUIDATA)
 
 % Hint: get(hObject,'Value') returns toggle state of A25
+
+
+% --- Executes on button press in pushbutton3.
+function pushbutton3_Callback(hObject, eventdata, handles)
+% hObject    handle to pushbutton3 (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
