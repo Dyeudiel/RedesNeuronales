@@ -9,6 +9,7 @@ d = dat(1:size(dat),2:size(tdat))' %columna 2 a n luego transpuesta
 red=newp([0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1],25);
 red=train(red,x,d);% Entrenamiento de la red
 
+
 v = [1	0	0	1	0	1	0	1	0	0	1	1	0	0	0	1	0	1	0	0	1	0	0	1	0]
 tv = v'
 a = sim(red,tv)
@@ -16,7 +17,7 @@ a = sim(red,tv)
 test = [];
 for i=1 : size(cond')
    buscado = dat(i:i,2:size(tdat))';
-   
+
    if a==buscado
        msgbox(char(cond(i)));
        break;
@@ -24,7 +25,7 @@ for i=1 : size(cond')
 end
 
 %for i = 1:size(cond)
-%    if a == 
+%    if a ==
 %end
 
 %cond = dat'(1:size(dat'))
@@ -33,7 +34,7 @@ end
 
 
 % x=[1 0 1 1 1 1 1 1 1 1;1 0 1 1 0 1 1 1 1 1;1 1 1 1 1 1 1 1 1 1;1 0 0 0 1 1 1 0 1 1;0 0 0 0 0 0 0 0 0 0;1 1 1 1 1 0 0 1 1 1;1 0 1 1 1 1 1 0 1 1;0 0 1 1 1 1 1 1 1 1;1 1 1 1 1 1 1 1 1 1;1 0 1 0 0 0 1 0 1 0;0 0 0 0 0 0 0 0 0 0;1 1 0 1 1 1 1 1 1 1;1 0 1 1 0 1 1 0 1 0;1 0 1 1 0 1 1 0 1 0;1 1 1 1 1 1 1 1 1 1];
-% 
+%
 % d=[0 0 0 0 0 0 0 0 0 1;0 0 0 0 0 0 0 0 1 0;0 0 0 0 0 0 0 1 0 0;0 0 0 0 0 0 1 0 0 0;0 0 0 0 0 1 0 0 0 0;0 0 0 0 1 0 0 0 0 0;0 0 0 1 0 0 0 0 0 0;0 0 1 0 0 0 0 0 0 0;0 1 0 0 0 0 0 0 0 0;0 0 0 0 0 0 0 0 0 0];
 % red=newp([0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1;0 1],10);
 % red=train(red,x,d);% Entrenamiento de la red
@@ -46,7 +47,7 @@ end
 
 
 % if     a== [0;0;0;0;0;0;0;0;0;0]%numero 0
-%     salida=0                    
+%     salida=0
 % elseif a== [0;0;0;0;0;0;0;0;1;0]%numero 1
 %     salida=1
 % elseif a== [0;0;0;0;0;0;0;1;0;0]%numero 2
@@ -68,6 +69,6 @@ end
 % else
 %     salida='El valor ingresado no corresponde a un n?mero'
 % end
-% 
+%
 % b = [1 0 0 0 0 0 0 0 0 0 ]
 % b=salida
