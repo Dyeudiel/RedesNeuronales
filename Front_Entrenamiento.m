@@ -21,8 +21,17 @@ function Front_Entrenamiento_OpeningFcn(hObject, eventdata, handles, varargin)
 
 handles.output = hObject;
 
-guidata(hObject, handles);
-
 function varargout = Front_Entrenamiento_OutputFcn(hObject, eventdata, handles) 
 
 varargout{1} = handles.output;
+
+function txtResultado_Callback(hObject, eventdata, handles)
+
+function txtResultado_CreateFcn(hObject, eventdata, handles)
+
+if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
+    set(hObject,'BackgroundColor','white');
+end
+
+function btnAnalizar_Callback(hObject, eventdata, handles)
+
