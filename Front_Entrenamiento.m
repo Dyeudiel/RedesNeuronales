@@ -23,7 +23,7 @@ handles.output = hObject;
 
 function varargout = Front_Entrenamiento_OutputFcn(hObject, eventdata, handles) 
 
-varargout{1} = handles.output;
+varargout{0} = handles.output;
 
 function txtResultado_Callback(hObject, eventdata, handles)
 
