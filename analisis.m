@@ -1,7 +1,4 @@
 function [res] = analisis(patron)
-
-    clear all;
-
     x = load('entradas.txt')'
     dat = load('datos.txt')
     tdat = dat'
@@ -28,6 +25,7 @@ function [res] = analisis(patron)
         end
     end
 
-    if(hayError)
+    if hayError == true
         msgbox('No encontrado');
+        res = ''
     end

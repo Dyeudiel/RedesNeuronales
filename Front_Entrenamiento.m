@@ -21,7 +21,7 @@ function Front_Entrenamiento_OpeningFcn(hObject, eventdata, handles, varargin)
 
 handles.output = hObject;
 
-function varargout = Front_Entrenamiento_OutputFcn(hObject, eventdata, handles) 
+function varargout = Front_Entrenamiento_OutputFcn(hObject, eventdata, handles)
 
 varargout{1} = handles.output;
 
@@ -61,4 +61,3 @@ function btnAnalizar_Callback(hObject, eventdata, h)
     value(24) = get(h.A24,'Value')
     value(25) = get(h.A25,'Value')
     %msgbox(value(1))
-
