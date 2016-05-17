@@ -33,7 +33,6 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
     set(hObject,'BackgroundColor','white');
 end
 
-
 function btnAnalizar_Callback(hObject, eventdata, h)
     value = []
     value(1) = get(h.A1,'Value')
@@ -61,6 +60,4 @@ function btnAnalizar_Callback(hObject, eventdata, h)
     value(23) = get(h.A23,'Value')
     value(24) = get(h.A24,'Value')
     value(25) = get(h.A25,'Value')
-    
-    caracter = analisis(value);
-    msgbox(caracter)
+    %msgbox(value(1))
