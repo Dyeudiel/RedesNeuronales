@@ -16,11 +16,19 @@ function [res] = analisis(patron)
     a = sim(red,tv)
 
     test = [];
+    hayError = true;
     for i=1 : size(cond')
-       buscado = dat(i:i,2:size(tdat))';
+        buscado = dat(i:i,2:size(tdat))';
 
-       if a==buscado
+
+        if a==buscado
            //msgbox(char(cond(i)));
+           res = char(cond(i));
+           hayError = false;
            break;
-       end
+        end
     end
+
+    if(hayError){
+        msgbox('No encontrado');
+    }
