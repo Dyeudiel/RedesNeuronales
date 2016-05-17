@@ -33,6 +33,7 @@ if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgr
     set(hObject,'BackgroundColor','white');
 end
 
+
 function btnAnalizar_Callback(hObject, eventdata, h)
     value = []
     value(1) = get(h.A1,'Value')
