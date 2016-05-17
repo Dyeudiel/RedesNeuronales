@@ -20,7 +20,6 @@ function [res] = analisis(patron)
     for i=1 : size(cond')
         buscado = dat(i:i,2:size(tdat))';
 
-
         if a==buscado
            //msgbox(char(cond(i)));
            res = char(cond(i));
