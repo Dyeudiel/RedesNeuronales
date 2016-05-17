@@ -60,4 +60,6 @@ function btnAnalizar_Callback(hObject, eventdata, h)
     value(23) = get(h.A23,'Value')
     value(24) = get(h.A24,'Value')
     value(25) = get(h.A25,'Value')
-    %msgbox(value(1))
+    
+    caracter = analisis(value);
+    msgbox(caracter)
