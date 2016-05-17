@@ -31,6 +31,7 @@ end
 
 function btnEntrenar_Callback(hObject, eventdata, h)
     value =[]
+    value(1) = char(get(h.txtEntrenar,'String'))
     value(2) = get(h.E1,'Value')
     value(3) = get(h.E2,'Value')
     value(4) = get(h.E3,'Value')
@@ -56,6 +57,8 @@ function btnEntrenar_Callback(hObject, eventdata, h)
     value(24) = get(h.E23,'Value')
     value(25) = get(h.E24,'Value')
     value(26) = get(h.E25,'Value')
+
+    aprender(value)
 
 function btnAnalizar_Callback(hObject, eventdata, h)
     value = []
