@@ -21,13 +21,13 @@ function [res] = analisis(patron)
         buscado = dat(i:i,2:size(tdat))';
 
         if a==buscado
-           //msgbox(char(cond(i)));
+           %msgbox(char(cond(i)));
            res = char(cond(i));
            hayError = false;
            break;
         end
     end
 
-    if(hayError){
+    if(hayError)
         msgbox('No encontrado');
-    }
+    end
