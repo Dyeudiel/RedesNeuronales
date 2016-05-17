@@ -25,10 +25,6 @@ function varargout = Front_Entrenamiento_OutputFcn(hObject, eventdata, handles)
 
 varargout{1} = handles.output;
 
-function txtResultado_Callback(hObject, eventdata, handles)
-
-function txtResultado_CreateFcn(hObject, eventdata, handles)
-
 if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
     set(hObject,'BackgroundColor','white');
 end
@@ -60,6 +56,6 @@ function btnAnalizar_Callback(hObject, eventdata, h)
     value(23) = get(h.A23,'Value')
     value(24) = get(h.A24,'Value')
     value(25) = get(h.A25,'Value')
-    
+
     caracter = analisis(value);
     msgbox(caracter)
