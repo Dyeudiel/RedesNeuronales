@@ -60,7 +60,7 @@ function btnEntrenar_Callback(hObject, eventdata, h)
     patron(24) = get(h.E24,'Value')
     patron(25) = get(h.E25,'Value')
 
-    aprender(patron, ascii)
+    aprender(ascii, patron)
 
 function btnAnalizar_Callback(hObject, eventdata, h)
     patron = []
