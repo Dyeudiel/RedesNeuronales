@@ -61,7 +61,7 @@ function btnEntrenar_Callback(hObject, eventdata, h)
     patron(25) = get(h.E25,'Value')
 
     aprender(ascii, patron)
-    msgbox("Caracter aprendido")
+    msgbox('Caracter aprendido')
 
 function btnAnalizar_Callback(hObject, eventdata, h)
     patron = []
@@ -92,4 +92,4 @@ function btnAnalizar_Callback(hObject, eventdata, h)
     patron(25) = get(h.A25,'Value')
 
     caracter = analisis(patron);
-    msgbox(caracter)
+    set(h.txtResultado, 'Value', caracter);
