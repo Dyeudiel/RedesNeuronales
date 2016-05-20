@@ -1,3 +1,7 @@
 function [res] = aprender(patron)
-
-    %dlmwrite('myFile.txt',M,'delimiter','\t','precision',3)
+    [filas, columnas] = size(load('entradas.txt'))
+    
+    salidaDeseada = fliplr(de2bi(2^(filas-1), columnas))
+    
+    dlmwrite('entradas.txt', patron, 'delimiter', '\t', '-append')
+    dlmwrite('datos.txt', salidaDeseada, 'delimiter', '\t', '-append')
