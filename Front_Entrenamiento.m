@@ -92,4 +92,4 @@ function btnAnalizar_Callback(hObject, eventdata, h)
     patron(25) = get(h.A25,'Value')
 
     caracter = analisis(patron);
-    set(h.txtResultado, 'Value', caracter);
+    set(h.txtResultado, 'String', caracter);
