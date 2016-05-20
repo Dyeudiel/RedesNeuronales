@@ -1,10 +1,11 @@
 function [res] = aprender(codigo, patron)
     [filas, columnas] = size(load('entradas.txt'))
 
-    salidaDeseada = fliplr(de2bi(2^(filas-1), columnas))
+    %Computa una salida unica lineal 2^n 
+    salidaDeseada = fliplr(de2bi(2^(filas-1), columnas)) 
 
     %concatena el ascii con la salida deseada
-    dato = [codigo, salidaDeseada];
+    res = [codigo, salidaDeseada];
 
     dlmwrite('entradas.txt', patron, 'delimiter', '\t', '-append')
-    dlmwrite('datos.txt', dato, 'delimiter', '\t', '-append')
+    dlmwrite('datos.txt', res, 'delimiter', '\t', '-append')

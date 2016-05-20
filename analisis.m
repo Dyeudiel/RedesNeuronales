@@ -10,15 +10,13 @@ function [res] = analisis(patron)
     red=train(red,x,d);% Entrenamiento de la red
 
     tv = patron'
-    a = sim(red,tv)
+    a = sim(red,tv) %simula la red con la salida
 
-    test = [];
     hayError = true;
     for i=1 : size(cond')
-        buscado = dat(i:i,2:size(tdat))';
+        buscado = dat(i:i,2:size(tdat))'; %patron del txt
 
         if a==buscado
-           %msgbox(char(cond(i)));
            res = char(cond(i));
            hayError = false;
            break;

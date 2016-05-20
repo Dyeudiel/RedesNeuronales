@@ -31,7 +31,7 @@ end
 
 function btnEntrenar_Callback(hObject, eventdata, h)
 
-    ascii = uint16(get(h.txtEntrenar,'String'))
+    ascii = uint16(get(h.txtEntrenar,'String')) %optiene el ascii del caracter
 
     patron =[]
     patron(1) = get(h.E1,'Value')
@@ -60,7 +60,7 @@ function btnEntrenar_Callback(hObject, eventdata, h)
     patron(24) = get(h.E24,'Value')
     patron(25) = get(h.E25,'Value')
 
-    aprender(ascii, patron)
+    aprender(ascii, patron) %guarda el patron y la salida
     msgbox('Caracter aprendido')
 
 function btnAnalizar_Callback(hObject, eventdata, h)
@@ -91,5 +91,6 @@ function btnAnalizar_Callback(hObject, eventdata, h)
     patron(24) = get(h.A24,'Value')
     patron(25) = get(h.A25,'Value')
 
-    caracter = analisis(patron);
+    %optiene el caracter y lo muestra en el guide
+    caracter = analisis(patron); 
     set(h.txtResultado, 'String', caracter);
