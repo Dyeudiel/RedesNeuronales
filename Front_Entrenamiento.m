@@ -31,7 +31,7 @@ end
 
 function btnEntrenar_Callback(hObject, eventdata, h)
 
-    ascii = char(get(h.txtEntrenar,'String'))
+    ascii = uint16(get(h.txtEntrenar,'String'))
 
     patron =[]
     patron(1) = get(h.E1,'Value')
@@ -61,6 +61,7 @@ function btnEntrenar_Callback(hObject, eventdata, h)
     patron(25) = get(h.E25,'Value')
 
     aprender(ascii, patron)
+    msgbox("Caracter aprendido")
 
 function btnAnalizar_Callback(hObject, eventdata, h)
     patron = []
