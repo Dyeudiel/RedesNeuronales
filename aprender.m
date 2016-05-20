@@ -1,3 +1,10 @@
-function [res] = aprender(patron)
+function [res] = aprender(codigo, patron)
+    [filas, columnas] = size(load('entradas.txt'))
 
-    %dlmwrite('myFile.txt',M,'delimiter','\t','precision',3)
+    salidaDeseada = fliplr(de2bi(2^(filas-1), columnas))
+
+    %concatena el ascii con la salida deseada
+    dato = [codigo, salidaDeseada];
+
+    dlmwrite('entradas.txt', patron, 'delimiter', '\t', '-append')
+    dlmwrite('datos.txt', dato, 'delimiter', '\t', '-append')
